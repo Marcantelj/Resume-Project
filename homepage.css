@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 120ch;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 25px;
+    position: fixed;
+}
+
+.linkedin {
+    color: hsl(225, 100%, 50%);
+    text-decoration: none;
+}
+
+.linkedin:hover, .linkedin:focus {
+    color: hsl(202, 92%, 50%);
+}
+
+.contacts {
+    text-align: center;
+    padding: .6em .2em .2em .2em;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.summarycontainer {
+    padding: .5em;
+    margin: 0em 1em 0em 1em;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.7em;
+}
+
+h2 {
+    color: hsl(225, 100%, 50%);
+    font-size: 1.7em;
+    padding: 1em .5em .5em 0em;
+}
+
+h3 {
+    font-size: 1.4em;
+    padding: 1em 0em .5em 1em;
+    flex-direction: row;
+}
+
+ul  {
+    padding: 0em 0em 0em 4em;
+}
+
+p {
+    font-size: 1.2em;
+}
+img {
+    width: 175px;
+    border: solid 2px black;
+    border-radius: 40px;
+    float:left;
+    margin: 0px 20px 0px 10px;
+}
+
+.projectlist {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+}
+
+.pprojectClass {
+    color: rgb(56, 56, 56);
+    margin-inline: 0.5rem;
+    width: 250px;
+}
+
+.divproject{
+    padding: 0em 0em .5em 0em;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+    width: 120ch;
+}
+
+.foottext {
+    padding: 1em;
+}
+
+script {
+    display: none;
+}
+
+span {
+    flex-direction: row;
+}
+
+li {
+    font-size: 1.2em;
+}
